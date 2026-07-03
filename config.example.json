@@ -1,0 +1,13 @@
+{
+  "num_classes": 6,
+  "patch_len": 16,
+  "stride": 8,
+  "enc_in": 30,
+  "llm_path": "/path/to/gpt2",
+  "label2id_path": "/path/to/label2id.json",
+  "attr_prior_path": "/path/to/attribute_prior.json",
+  "d_model": 768,
+  "dropout": 0.1,
+  "n_heads": 8,
+  "ablation_mode": "full"
+}
